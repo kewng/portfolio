@@ -1,0 +1,143 @@
+*{
+	margin: 0;
+}
+
+body{
+	background: #D8D8D8;
+}
+
+	/*INICIO NAV*/
+nav ul{
+	background-color: #F5A9D0;
+	width: 100%;
+	padding-left: 50px;
+	text-shadow: #2E2E2E 1px 1px 3px;
+}
+
+nav ul li a{
+	color: #000;
+}
+
+nav ul li a:hover{
+	color: #fff;
+}
+	/*FINAL NAV*/
+
+
+	/*INICIO HEADER*/
+header{
+	margin-top: 172px;
+	height: 250px;
+	margin-bottom: 200px;
+}
+
+.float-left{
+	margin-left: 250px;
+	margin-top: 10px;
+}
+
+header p{
+	margin-right: 250px;
+}
+
+.color{
+	color: #FA58AC;
+}
+	/*FINAL HEADER*/
+
+
+	/*INICIO SECTIONS*/
+section #projetos{
+	margin-top: 100px;
+}
+			/*ASIDE*/
+#container-aside{
+	width: 430px;
+	margin-right: 200px;
+}
+
+.title-aside{
+	text-shadow: #2E2E2E 1px 1px 3px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+#container-aside p{
+	padding: 10px;
+	border-bottom: 1px solid #000;
+	margin-bottom: 3px;
+}
+
+#container-aside p:hover{
+	background-color: #F5A9D0;
+	color: #fff;
+}
+
+			/*COMPETÊNCIAS*/
+.container{
+	width: 50%;
+	height: 400px;
+	display: flex;
+	margin: 0;
+}
+.conteudo{
+	height: 300px;
+	display: flex;
+	margin-left: 100px;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.item{
+	background: white;
+	box-shadow: #848484 0px 0px 3px;
+	width: 200px;
+	margin-bottom: 10px;
+	height: 100px;
+	text-align: center;
+}
+
+.title{
+	padding-left: 280px;
+	text-shadow: #2E2E2E 1px 1px 3px;
+	margin-bottom: 30px;
+}
+
+			/*PROJETOS*/
+.container1{
+	width: 90%;
+	height: 400px;
+	display: flex;
+	margin: 0;
+}
+
+.conteudo1{
+	height: 300px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.item1{
+	background: white;
+	box-shadow: #848484 0px 0px 3px;
+	width: 400px;
+	margin-left: 30px;
+	height: 300px;
+}
+
+.title1{
+	text-align: center;
+	text-shadow: #2E2E2E 1px 1px 3px;
+	margin-bottom: 30px;
+}
+
+.fict{
+	text-align: center;
+	font-size: 10px;
+}
+	/*FINAL SECTION*/
+
+
+footer{
+	background-color: #F5A9D0;
+	text-align: center;
+}
