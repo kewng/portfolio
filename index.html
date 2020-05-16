@@ -13,72 +13,87 @@
         <title>Portfólio - Kellen Martins</title>
     </head>
 
+
     <body>
-      <nav>
-        <ul class="nav justify-content-center fixed-top">
-            <li class="nav-item"><a href="#me" class="nav-link">KELLEN</a></li>
-            <li class="nav-item"><a href="#competencia" class="nav-link active">COMPETÊNCIAS & CERTIFICAÇÃO</a></li>
-            <li class="nav-item"><a href="#projetos" class="nav-link">PROJETOS</a></li>
-            <li class="nav-item"><a href="https://www.linkedin.com/in/kewmartins/" class="nav-link">LINKEDIN</a></li>
-        </ul>
-      </nav>
 
       <header>
-        <img src="img-logo.jpg" width="220" class="float-left mt-5">
-        <p class="text-center float-right" style="width: 600px; font-size: 20px;"><strong>Olá, bem vindo. Sou Kellen Martins e sou de Viamão-RS.</strong></p>
-        <p id="me" class="text-justify float-right" style="width: 600px;"><span class="color">"</span>Minha paixão pela personalização e criação de páginas web começou na minha adolescência, quando, por passatempo e hobby, eu criava e personalizava themes no Tumblr. Apesar de ser apaixonada pela área, me formei como Professora de Educação Básica pelo Magistério. Hoje me encontro em transição de carreira, em busca do meu sonho de ser uma webdesigner e uma desenvolvedora front-end. Atualmente, não curso ensino superior, mas estou sempre em busca de conhecimento através de Bootcamps e cursos, visando sempre evoluir e melhorar minhas skills. Me vejo como uma pessoa dinâmica, persistente e curiosa, e estou em busca de uma oportunidade de evoluir como profissional dentro do mercado de trabalho. Meus objetivos profissionais são: Desenvolvedora Front-End, UI/UX Designer, Analista de Sistemas/Suporte.<span class="color">"</span></p></div>
+        <div class="container">
+          <nav class="navbar navbar-expand-sm">
+            <ul class="nav nav-tabs justify-content-center fixed-top">
+              <li class="nav-item"><a href="#me" class="nav-link">KELLEN</a></li>
+              <li class="nav-item"><a href="#cert" class="nav-link">COMPETÊNCIAS&CERTIFICAÇÃO</a></li>
+              <li class="nav-item"><a href="#projetos" class="nav-link">PROJETOS</a></li>
+              <li class="nav-item"><a href="https://www.linkedin.com/in/kewmartins/" class="nav-link">LINKEDIN</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="container" id="me">
+          <div class="row">
+            <div class="col-lg-3 col-md-5 col-sm-12 col-xs-12 float-left">
+              <img src="img-logo.jpg" width="220" class="mt-5 imglogo">
+            </div>
+            <div class="col-lg-9 col-md-7 col-sm-12 col-xs-12 float-left mt-5">
+              <p class="text-center" style="font-size: 20px;"><strong>Olá, bem vindo. Sou Kellen Martins e sou de Viamão-RS.</strong></p>
+              <p id="me" class="text-justify"><span class="color">"</span>Minha paixão pela personalização e criação de páginas web começou na minha adolescência, quando, por passatempo e hobby, eu criava e personalizava themes no Tumblr. Apesar de ser apaixonada pela área, me formei como Professora de Educação Básica pelo Magistério. Hoje me encontro em transição de carreira, em busca do meu sonho de ser uma webdesigner e uma desenvolvedora front-end. Atualmente, não curso ensino superior, mas estou sempre em busca de conhecimento através de Bootcamps e cursos, visando sempre evoluir e melhorar minhas skills. Me vejo como uma pessoa dinâmica, persistente e curiosa, e estou em busca de uma oportunidade de evoluir como profissional dentro do mercado de trabalho. Meus objetivos profissionais são: Desenvolvedora Front-End, UI/UX Designer, Analista de Sistemas/Suporte.<span class="color">"</span></p>
+            </div>
+          </div>
+        </div>
       </header>
 
       <section>
-        <aside>
-          
-          <div id="container-aside" class="float-right">
+        <div id="cert">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <div id="competencia" class="container">
+              <h2 class="title">COMPETÊNCIAS</h2>
+                <div id="conteudo">
+                  <div class="item"><h3 class="mt-4">HTML5</h3></div>
+                  <div class="item"><h3 class="mt-4">CSS3</h3></div>
+                  <div class="item"><h3 class="mt-4">JAVASCRIPT</h3></div>
+                  <div class="item"><h3 class="mt-4">MySQL</h3><br></div>
+                  <div class="item"><h3 class="mt-4">BOOTSTRAP</h3></div>
+                  <div class="item"><h3 class="mt-4">UI/UX DESIGN</h3></div>
+                </div>
+            </div> 
+          </div>
+        
+        
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+          <div id="container-aside">
             <h2 class="title-aside" id="cert">CERTIFICAÇÃO</h2>
             <p>Lógica de Programação - 14 horas</p>
             <p>HTML: Introdução ao desenvolvimento de pág. Web - 30 horas</p>
             <p>CSS: Folhas de estilo - 30 horas</p>
             <p>Fundamentos de Banco de Dados - 20 horas</p>
             <p>Desenvolvimento Web Completo - 108 horas</p>
-
           </div>
-        </aside>
-
-        <div id="competencia" class="clearfix">
-          <h2 class="title">COMPETÊNCIAS</h2>
-          <div class="container">
-            <div class="conteudo">
-              <div class="item"><h3 class="mt-4">HTML5</h3></div>
-              <div class="item"><h3 class="mt-4">CSS3</h3></div>
-              <div class="item"><h3 class="mt-4">JAVASCRIPT</h3></div>
-              <div class="item"><h3 class="mt-4">MySQL</h3><br></div>
-              <div class="item"><h3 class="mt-4">BOOTSTRAP</h3></div>
-              <div class="item"><h3 class="mt-4">UI/UX DESIGN</h3></div>
-            </div>
-          </div> 
         </div>
+      </div></div>
+      </section>
 
+      <section>
         <div id="projetos">
-          <h2 class="title1 mt-5 justify-content-center">PROJETOS</h2>
-          <p class="fict">*Estes projetos são fictícios, criados exclusivamente para meu portfólio.*</p>
-          <div class="container1">
-            <div class="conteudo1">
-              <div class="item1">Em breve</div>
-              <div class="item1">Em breve</div>
-              <div class="item1">Em breve</div>
+          <h2 class="title-proj justify-content-center">PROJETOS</h2>
+          <div class="container-proj">
+            <div class="conteudos">
+              <div class="item-proj">Em breve</div>
+              <div class="item-proj">Em breve</div>
+              <div class="item-proj">Em breve</div>
             </div>
           </div> 
         </div>
-        
       </section>
 
       <footer>
         Todos os direitos reservados &copy;
       </footer>
 
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
       <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
       <script type="text/javascript" src="app.js"></script>
-  </body>
+    </body>
 </html>
