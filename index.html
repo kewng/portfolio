@@ -1,122 +1,101 @@
 <!DOCTYPE html>
-<html>
-		<!-- inicio HEAD-->
-	<head>
-		<title>Servidor AntiSocial</title>
+  <html lang="pt-br">
+    <head>
       <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <link rel="stylesheet" href="conf/bootstrap/bootstrap.min.css">
-      <link rel="stylesheet" type="text/css" href="conf/normalize/normalize.css">
+      
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+      <link rel="stylesheet" type="text/css" href="normalize.css">
       <link rel="stylesheet" type="text/css" href="estilo.css">
-      <link rel="stylesheet" type="text/css" href="menu.css">
       <!-- [if lt IE 9]>
         <script src"conf/html5shiv/html5shiv.js"></script>
       <! [endif] -->
-	</head>
 
-  <body>
-    <header>
-      <div class="fixed-top">
-        <div id="name" class="float-left">
-          ANTISOCIAL4FUN.COM
+        <title>Portfólio - Kellen Martins</title>
+    </head>
+
+    <body>
+      <header>
+        <nav class="navbar navbar-expand-sm fixed-top">
+            <img src="img/logo.png" width="80">
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-target">
+                <span class="navbar-toggler-icon">&#9776;</span>
+            </button>
+            <div class="collapse navbar-collapse" id="nav-target">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item"><a href="#aboutme" class="nav-link mt-1">ABOUT ME</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link mt-1">SKILLS</a></li>
+                <li class="nav-item"> <a href="#footer"class="nav-link mt-1">PORTFÓLIO</a></li>
+                <li class="nav-item"> <a href="https://www.linkedin.com/in/kewmartins/"class="nav-link"><img src="img/linkedin.png" width="30px"></a></li>
+                <li class="nav-item"> <a href="https://github.com/kewng"class="nav-link"><img src="img/github.png" width="30px"></a></li>
+                </ul>
+            </div>
+        </nav>
+
+
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-sm-6 col-xs-6">
+              <img src="img/icon.png" width="300" id="logo">
+            </div>
+
+
+            <div class="col-md-6 col-sm-6 col-xs-6">
+              <h1 class="font-italic">Kellen Martins</h1>
+              <h6>Desenvolvedora Front-End</h6>
+            </div>
+          </div>
         </div>
+      </header>
 
-
-        <input type="checkbox" id="chk">
-        <label for="chk" class="menu-icon">&#9776;</label>
-        <div class="bg"></div>
-        <nav class="menu" id="principal">
-          
-      <ul>
-        <li><a href="menu.html" class="back">&#9776;</a></li>
-        <li><a href="">PLUGINS EXCLUSIVOS</a></li>
-        <li><a href="">RPG E DUNGEONS</a></li>
-        <li><a href="">BLOODMOON</a></li>
-        <li><a href="">VIPS E VANTAGENS</a></li>
-        <li><a href="">PETS</a></li>
-        <li><a href="">ECONOMIA</a></li>
-        <li><a href="">EVENTOS AUTOMÁTICOS</a></li>
-        <li><a href="">SPAWNERS</a></li>
-        <li><a href="">/LEILAO</a></li>
-        <li><a href="">KEYS E CAIXAS</a></li>
-        <li><a href="">PSHOPS</a></li>
-        <li><a href="">SKILLTREE</a></li>
-      </ul>
-    </nav>
+      <section>
+        <div class="container">
+          <div id="aboutme" style=" width: 400px;">
+            <p class="text-center" style="font-size: 30px; color:#FAB6DD; text-shadow: 1px 0px 3px #000; font-family: Title;"><strong>Sou Kellen Martins</strong></p>
+            <p id="me" class="text-center">Sou de Porto Alegre/RS e tenho 20 anos.<br>Minha paixão pelo desenvolvimento e pesonalização de páginas web começou na minha adolescência quando, por hobby e sem viés profissional, criava e disponibilizada themes personalizados no Tumblr. Apesar de gostar muito, em 2018 me formei Professora de Educação Infantil e Anos Iniciais pelo Magistério. Hoje me encontro em transição de carreira.<br>Me dedico ao desenvolvimento front-end e estou sempre em busca de conhecimento através de Bootcamps e cursos, visando sempre evoluir e melhorar minhas skills.</p>
+          </div>
+        </div>
+      </section>
       
-        <div id="midias" class="float-right">
-          <!-- MIDIAS SOCIAIS -->
-            <a href="https://twitter.com/AntiSocial4Fun"><img src="imagens/midiatwitter.png" width="50" height="50" alt="Twitter"></a>
-
-            <a href="https://www.facebook.com/antisocialserver"><img src="imagens/midiafacebook.png" width="50" height="50" alt="Facebook"></a>
-
-            <a href="https://www.youtube.com/c/DaveTheCamper"><img src="imagens/midiayoutube.png" width="50" height="50"  alt="Youtube"></a>
-
-            <a href="https://steamcommunity.com/groups/AntiSocialManowAff"><img src="imagens/midiasteam.png" width="50" height="50"  alt="Steam"></a>
-          <!-- final MIDIAS SOCIAIS -->
+      <section>
+        <div class="container">
+          <div id="skills">
+            <div class="row">
+              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <h1 style="color:#FAB6DD; text-shadow: 1px 0px 3px #000; font-family: Title;" class="ml-5">Skills</h1>
+                  <div class="caixa d-flex flex-row flex-wrap">
+                    <div class="item"><h6 class="pt-3 font-weight-bold">Desenvolvimento Front-End</h6>HTML5, CSS3, Bootstap, Javascrip</div>
+                    <div class="item"><h6 class="pt-4 font-weight-bold">SQL</h6>MySQL</div>
+                    <div class="item"><h6 class="pt-4 font-weight-bold">Sistemas Operacionais</h6>Linux (em aprendizado)</div>
+                    <div class="item"><h6 class="pt-4 font-weight-bold">Git</h6>Github</div>
+                    <div class="item"><h6 class="pt-4 font-weight-bold">Noções Básicas</h6>PHP, UI/UX Design, Node.js</div>
+                    <div class="item"><h6 class="pt-4 font-weight-bold">Office, Inglês Básico</h6></div>
+                  </div>
+            </div> 
+          </div>
         </div>
-      </div>
+      </section>
 
-        <div id="backheader" class="clearfix"></div></header><!-- final HEADER -->
+      <section>
+        <div class="container">
+          <div id="portfolio">
+            <div class="row">
+              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <h1 style="color:#FAB6DD; text-shadow: 1px 0px 3px #000; font-family: Title;" class="ml-5">Portfolio</h1>
+                  <div class="caixa d-flex flex-row">
+                    <div class="item"><h6 class="font-weight-bold" style="text-shadow: 0px 0px 3px #ccc;">ATS Wiki</h6><img src="img/port-ats.png" width="350"></div>
+                    <div class="item"><h6 class="font-weight-bold" style="text-shadow: 0px 0px 3px #ccc;">Landing Page</h6><img src="img/port-landingpage.png" width="350"></div>
+                    <div class="item"><h6 class="font-weight-bold" style="text-shadow: 0px 0px 3px #ccc;">Institucional</h6><img src="img/port-desenv.png" width="350"></div>
+            </div> 
+          </div>
+        </div>
+      </section>
 
-        <sbody>
-    <section>
-      <div id="container">
-          <!-- inicio CONT PRINCIPAL -->
-        <div id="posts">
-          <h1><div class ="fonte">Servidor AntiSocial</div></h1>
-          <h5>BLOODMOON • KEYS • SURVIVAL RANKUP • EVENTOS DIÁRIOS • MUITO MAIS!</h5>
-          <hr>
-            <p class="text-justify pb-0">O "ATS Team" surgiu em meados de 2015 quando um grupo de amigos decidiram criar um clã de mesmo nome em um servidor de Minecraft. Após tempo jogando juntos, o grupo original veio por se separar, mantendo somente os amigos Vac, Mchzin, Dave e Tomast. Em 2018, com novos membros no grupo, eles decidiram jogar um servidor de survival brasileiro, do qual foram banidos. DaveTheCamper então decidiu criar um servidor para ele e seus amigos jogarem e se divertirem,  com suas próprias regras. O Servidor Antisocial.</p>
-              <div class="flex">
-                <div class="fleximg">
-                  <img style="border-radius: 50%;" src="imagens/rodape.png" width="200" height="200"> 
-                </div>
-                <div class="fleximg">
-                  <img style="border-radius: 50%;" src="imagens/rodape.png" width="200" height="200" alt="Imagem">
-                </div>
-                <div class="fleximg">
-                  <img style="border-radius: 50%;" src="imagens/rodape.png" width="200" height="200" alt="Imagem">
-                </div>
-              </div>
-            <p class="text-justify py-0">Após tempo jogando juntos, o grupo original veio por se separar, mantendo somente os amigos Vac, Mchzin, Dave e Tomast.</p>
-            <div class="flex">
-                <div class="fleximg">
-                  <img style="border-radius: 50%;" src="imagens/rodape.png" width="200" height="200"> 
-                </div>
-                <div class="fleximg">
-                  <img style="border-radius: 50%;" src="imagens/rodape.png" width="200" height="200" alt="Imagem">
-                </div>
-                <div class="fleximg">
-                  <img style="border-radius: 50%;" src="imagens/rodape.png" width="200" height="200" alt="Imagem">
-                </div>
-              </div>
-            <p class="text-justify pt-0">Em 2018, com novos membros no grupo, eles decidiram jogar um servidor de survival brasileiro, do qual foram banidos. DaveTheCamper então decidiu criar um servidor para ele e seus amigos jogarem e se divertirem,  com suas próprias regras. O Servidor Antisocial.</p>
-        </div> <!-- fim CONT PRINCIPAL -->
-
-          <!-- inicio CONT LATERAL -->
-        <div id="team">
-          <h3 class="fonte">ATS TEAM</h3>
-            <hr>
-              <div class="row">
-                <img class="img-responsive" src="imagens/skindave.png" alt="DONO/FUNDADOR DaveTheCamper" width="110">
-                <img class="img-responsive" src="imagens/skinmchzin.png" alt="DONO/DESIGNER Mchzin" width="110">
-                  <br>
-                <img class="img-responsive" src="imagens/skintomast.png" alt="DONO/BUILDER Tomast1337" width="110">
-                <img class="img-responsive" src="imagens/skinvac.png" alt="DONO VAC" width="110">
-                  <br>
-                <img class="img-responsive" src="imagens/skinsatoshi.png" alt="MATEMATICO Satoshi" width="110">
-                <img class="img-responsive" src="imagens/skinakihiko.png" alt="HELP+/BUILDER Akihiko" width="110">
-              </div>
-        </div> <!-- final CONT LATERAL -->
-
-      </div>
-    </section><!-- final da SECTION -->
-  </body>
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+      <footer class="text-center" id="footer">
+        &copy; Kellen Martins, 2020 | Portfólio pessoal.
+      </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-      <script src="conf/js/bootstrap.min.js"></script>
-  </body>
-
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+      <script type="text/javascript" src="main.js"></script>
+    </body>
 </html>
